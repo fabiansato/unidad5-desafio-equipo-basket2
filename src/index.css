@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Estilos tablero */
+
+.app-tablero {
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.tablero_grupo {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.tablero_cabecera {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn_inc {
+  background: green;
+}
+
+.btn_dec {
+  background: red;
+}

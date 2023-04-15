@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  font-family: Roboto Slab, serif;
+}
+
+.logo-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.utn-logo {
+  height: 70px;
+}
+
+.main-container {
+  height: 650px;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contador {
+  min-width: 300px;
+  height: 300px;
+  font-size: 160px;
+  padding: 25px;
+  color: rgb(91, 81, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid rgb(91, 81, 81);
+  margin: 15px 0;
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(91, 81, 81);
+  border: 2px solid rgb(91, 81, 81);
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
+.btn-incrementar {
+  background-color: aquamarine;
+}
+
+.btn-decrementar {
+  background-color: salmon;
+}
